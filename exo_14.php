@@ -1,6 +1,6 @@
 <?php
-$anniv = array(14,05,1997);
-$aujd = array(date("j"),date("m"),(date("Y")));
+$anniv = array(25,04,1997);
+$aujd = array(date("j"),date("m"),date("Y"));
 
 
 $jour= $aujd[0] - $anniv[0];
