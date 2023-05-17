@@ -1,5 +1,5 @@
 <?php
 $a = "Notre formation DL commence aujourd'hui";
-$nb_car = strlen($a);
-echo $a, " contient ", $nb_car, " caractères.";
+$nb_mots = str_word_count($a);
+echo $a, " contient ", $nb_mots, " mots.";
 ?>
