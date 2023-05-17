@@ -7,7 +7,7 @@
 
 
     echo $p1;
-    echo $p2;     // renvoie qqchose car on a une fonction __toString
+    echo $p2;     // renvoie qqchose car on a une fonction __toString (dans personnes.php)
     
     // var_dump($p1->age()); (permet de voir un tableau)
 
