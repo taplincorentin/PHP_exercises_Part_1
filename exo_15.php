@@ -25,9 +25,8 @@
 
         function age() {
             $aujd = new DateTime('now');
-            $interval = $this-> get_ddn() -> diff($aujd);// -> diff(new DateTime('now'));
-            return $interval = $this-> get_ddn() -> diff($aujd);
-                //date("Y")-(($this-> get_ddn()));  //obtention de l'âge grâce la méthode get_ddn
+            return $this-> get_ddn() -> diff($aujd)->y;
+                
         }
 
         public function __toString()
@@ -44,4 +43,6 @@
     echo $p1;
     echo $p2;     // affichage des valeurs grâce aux méthodes
     
+    // var_dump($p1->age());
+
 ?>
